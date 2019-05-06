@@ -1,0 +1,98 @@
+body {
+    background-color: #4ABDAC;
+    font-family: 'Comfortaa', cursive;
+    margin:0px;
+    padding: 0px;
+}
+
+.form {
+    margin: 20px;
+    margin-top: 40px;
+    color: white;
+    width: 285px;
+    height: 380px;
+    background-color: #FC4A1A;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formTitle {
+    padding-top: 10px;
+    padding-bottom: 22px;
+    text-align: center;
+    font-size: large;
+}
+
+.formText {
+    padding: 2px;
+    font-family: 'Comfortaa'
+}
+
+.formField {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.priceDisplay {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+input {
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+    border:3px solid #E64398;
+    background-color: #F8E9A1;
+    
+      display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 6px 20px;
+  border: none;
+  -webkit-border-radius: 32px / 54px;
+  border-radius: 32px / 54px;
+  font: normal 18px/normal "Coda", Helvetica, sans-serif;
+  color: RoyalBlue;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: white;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2) inset;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+input[type=submit] {
+    padding: 10px;
+    background-color: RoyalBlue;
+    color: white;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    padding: 10px;
+    background-color: white;
+    color: RoyalBlue;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+#headline {
+    font-size: 60px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Shutl Quote Engine</title>
+    <meta content="">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style></style>
+  </head>
+  <body>
+	<script src="jquery-3.4.0.min.js"></script>
+	<div id="headline">
+	    Get a quote
+	</div>
+	<div align="center">
+	<div class="form" style="text-align: left">
+	    <form id="quoteForm" action:"#" th:action="@{/quote}" th:object="${quote}" method="POST" Content-Type="application/json">
+		<div class='formText'>
+		    Pickup postcode:
+		</div>
+		<input class='formField' id="pickup_postcode" type="text" th:field="*{pickup_postcode}" />
+		<div class='formText'>
+		    Delivery postcode:
+		</div>
+		<input class='formField' id="delivery_postcode" type="text" th:field="*{delivery_postcode}" />
+		<div class='formText'>
+		    Vehicle:
+		</div>
+		<input class='formField' id="vehicle" type="text" th:field="*{vehicle}" />
+		<div class='formText' id="errorMsg">
+		</div>
+		<input class='formField' type="submit" value="Submit" />
+		<div class='priceDisplay' id="queryResults"> Price: </div>
+	    </form>
+	</div>
+	</div>
+  </body>
+</html>
